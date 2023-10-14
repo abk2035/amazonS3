@@ -17,9 +17,10 @@ def convert_text_to_excel(input_file, output_file):
 
     # Enregistrer le classeur Excel dans un fichier
     workbook.save(output_file)
+    print("convertion terminee") 
 
 # Exemple d'utilisation
-input_file = r'C:\Users\tankoua\Desktop\projet\s3\amazonS3\fichier.txt'   # Chemin du fichier texte à convertir
-output_file = r'C:\Users\tankoua\Desktop\projet\s3\amazonS3\output.xlsx'  # Chemin du fichier Excel de sortie
+input_file = r'D:/projets/fichier.txt'   # Chemin du fichier texte à convertir
+output_file = r'D:/projets/output.xlsx'  # Chemin du fichier Excel de sortie
 
 convert_text_to_excel(input_file, output_file)
